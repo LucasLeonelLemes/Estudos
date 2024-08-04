@@ -35,7 +35,7 @@ sem ter essas falhas de arredondamentos por nos trabalhos em decimal e a maquina
 <---------------------------------------------- // --------------------------------------->
 
 paramos das strings 
-no minuto 9:20 do video
+no minuto 9:20 do video.
 
 
 */

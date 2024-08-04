@@ -79,7 +79,7 @@ EX:       const pessoa = {
 
         nome: "Lucas",
         idade: 27,
-        falar = function(){
+        falar: function(){
         console.log("teste")
         } 
 
@@ -87,5 +87,45 @@ EX:       const pessoa = {
 
 
     pessoa.falar()
+
+
+tambem podemos fazer um escopo com template
+
+
+EX:   const pessoa = {
+
+        nome: "Lucas",
+        idade: 27,
+        falar: function(){
+        console.log(`Meu nome e ${this.nome}`)
+        } 
+
+    }
+
+
+    pessoa.falar()
+
+
+entao ele retorna "Meu nome e Lucas" porque na variavel "nome" ele tem o valor Lucas
+
+
+
+algumas vezes as functions podem se comportar como objeto
+
+
+podemos chamar a function como um objeto
+
+
+EX:      const y = pessoa.falar
+
+        y()
+
+
+o problema que chamamos ele assim ele retorna como "Meu nome e undefined", porque quando chamamos pelo y ele conconsegue entrar na const pessoa
+e saber qual e o valor do nome
+
+
+resumindo: objetos sao estruturas dinamicas chave valor, que podem ter functions ou nao e dentro de cada objeto elas assumem o contexto do objeto
+e assim conseguimos acessar as variaveis que existem ali 
 
 */

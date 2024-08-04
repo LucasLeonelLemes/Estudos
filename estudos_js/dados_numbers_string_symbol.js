@@ -15,7 +15,7 @@ exemplos:
 
 10-10 = 0 CORRETO
 
-0.01 - 0.03 = 0.01999999999 ERRADO
+0.01 - 0.03 = 0.01999999999 ERRADOO
 
 "isso daqui e mais ou menos a sujeira que e gerada durante a operacao binaria"
 

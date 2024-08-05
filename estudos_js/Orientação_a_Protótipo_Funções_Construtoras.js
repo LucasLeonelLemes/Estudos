@@ -45,7 +45,7 @@ function Pessoa(nome, idade){
 }
 
 
-const lucas = new Pessoa('Lucas', 27)
+//const lucas = new Pessoa('Lucas', 27)
 
 
 //console.log(lucas)
@@ -79,7 +79,7 @@ existe um outro jeito de chegar no mesmo resultado de cima usando class
 EX:*/
 
 
-class pessoa {
+class pessoas {
     constructor(nome, idade){
         this.nome = nome
         this.idade = idade
@@ -90,6 +90,7 @@ class pessoa {
     }
 }
 
+const lucas = new pessoas('Lucas', 27)
 
 
-lucas.pessoa();
+lucas.falar();
